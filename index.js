@@ -6,7 +6,7 @@ var anotejs = require('annoteJS'),
 anotejs.registerAnnotations(path.resolve(__dirname, './annotations'));
 var anote = anotejs.get();
 
-var controllerHandler = anote.requireWithAnnotations('./lib/controller_handler').get();
+var controllerHandler = anote.requireWithAnnotations(path.resolve(__dirname, './lib/controller_handler')).get();
 
 function ExpressController(){}
 
