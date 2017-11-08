@@ -3,7 +3,7 @@ var anotejs = require('annoteJS'),
     util = require('util'),
     fs = require('fs');
 
-anotejs.registerAnnotations('./annotations');
+anotejs.registerAnnotations(path.resolve(__dirname, './annotations'));
 var anote = anotejs.get();
 
 var controllerHandler = anote.requireWithAnnotations('./lib/controller_handler').get();
