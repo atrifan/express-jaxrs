@@ -1,6 +1,6 @@
 {
   "name": "express-jaxrs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An annotation support express-jaxrs middleware for Javascript",
   "main": "index.js",
   "author": {
