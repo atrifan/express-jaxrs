@@ -1,0 +1,53 @@
+{
+  "name": "express-jaxrs",
+  "version": "0.1.0",
+  "description": "An annotation support express-jaxrs middleware for Javascript",
+  "main": "index.js",
+  "author": {
+    "name": "Trifan Alex",
+    "email": "trifan.alex.criss@gmail.com"
+  },
+  "dependencies": {
+    "annoteJS": "^0.1.5",
+    "path": "^0.12.7",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "expect.js": "^0.3.1",
+    "sinon": "^4.1.2",
+    "mocha-phantomjs": "^4.1.0",
+    "express": "^4.16.2",
+    "node-readme": "^0.1.9"
+  },
+  "scripts": {
+    "test": "./test.sh",
+    "readme": "node ./node_modules/.bin/node-readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atrifan/express-jaxrs.git"
+  },
+  "keywords": [
+    "javascript",
+    "JS",
+    "annotations",
+    "NodeJS",
+    "framework",
+    "express",
+    "integration",
+    "easy",
+    "REST",
+    "controllers"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/atrifan/express-jaxrs/master/LICENSE"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atrifan/express-jaxrs/issues"
+  }
+}
